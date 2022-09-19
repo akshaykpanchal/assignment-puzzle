@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Slide Puzzle</title>
+        <link rel="stylesheet" href="puzzle.css">
+    </head>
+
+    <body>
+        <div id="header">
+            <div class="container">
+             <nav>
+                 <img src="../images/logo.png" class="logo">
+                 <ul id="sidemneu">
+                     <li><a href="../index.html">Home</a></li>
+                     <li><a href="../index.html">Resume</a></li>
+                     <li><a href="../index.html">Stock Prices</a></li>
+                     <li><a href="/slide-puzzle-master/index.html">Puzzle Game</a></li>
+                     <li><a href="../index.html">Hit Counter & Links</a></li>
+                     <i class="fa-solid fa-xmark" onclick="closemenu()"></i>
+                 </ul>
+                 <i class="fa-solid fa-bars" onclick="openmenu()"></i>
+             </nav>
+            </div> 
+         </div>
+
+        <img id="title" src="./logo.png">
+        <div id="board">
+        </div>
+        <h1>Turns: <span id="turns">0</span></h1>
+
+        <div class="copyright">
+            <p>Copyright © Subhojit. Made for LTI assignment</p>
+            <p>This page was viewed</p>
+            <h1 id="count">0</h1><p>times</p>
+        </div>
+        <script src="puzzle.js"></script>
+    </body>
+</html>
